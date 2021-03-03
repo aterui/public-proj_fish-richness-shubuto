@@ -2,7 +2,7 @@
 # setup -------------------------------------------------------------------
 
   pacman::p_load(tidyverse, sp)
-  dat0	<-	read_csv("data/data_env_quad.csv")
+  dat0 <- read_csv("data/data_env_quad.csv")
 
   
 # perform pca for habitat heterogeneity -----------------------------------
@@ -10,7 +10,7 @@
   dat0 <- dat0 %>% 
     mutate(sub_score = (1 * bed + 2 * silt + 3 * sand + 4 * gravel + 5 * cobble) / 100)
   
-  pca		<-	dat0 %>% 
+  pca <- dat0 %>% 
     select(depth, vel, sub_score) %>% 
     prcomp(scale = T)
   
