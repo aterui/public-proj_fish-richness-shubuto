@@ -31,7 +31,7 @@ area) was also identified as a significant predictor of fish diversity,
 whereas habitat heterogeneity brought little improvement to the model
 performance. These results reflect the fish fauna of the Shubuto River
 system, in which diadromous fishes are dominant in both abundance and
-species richness. \# File description
+species richness.
 
 ## DOI
 
